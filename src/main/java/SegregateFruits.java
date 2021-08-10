@@ -30,6 +30,8 @@ public class SegregateFruits {
         fruitBowl.addFruit( new Apple());
         fruitBowl.addFruit( new Banana());
         fruitBowl.addFruit( new Banana());
+        fruitBowl.addFruit( new Banana());
+        fruitBowl.addFruit( new Orange());
         fruitBowl.addFruit( new Orange());
 
         Assert.assertEquals(fruitBowl.getAppleBowl().size(),3);
@@ -59,7 +61,7 @@ public class SegregateFruits {
         fruitBowl.addFruit( new Banana());
         fruitBowl.addFruit( new Banana());
         fruitBowl.addFruit( new Orange());
-
+        fruitBowl.addFruit( new Orange());
         Assert.assertEquals(fruitBowl.getOrangeBowl().size(),1);
 
     }
